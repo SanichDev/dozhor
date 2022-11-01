@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div class="uk-section-secondary uk-preserve-color">
+        <div uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light">
+            <nav class="uk-navbar-container">
+                <div class="uk-container uk-container-expand">
+                    <div uk-navbar>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">ДОЖОР</a></li>
+                            <li>
+                                <a href="#store">МАГАЗИН</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Склад 1</a></li>
+                                        <li><a href="#">Склад 2</a></li>
+                                        <li><a href="#">Склад 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#footer">ЗВ'ЯЗОК</a></li>
+                            <li><a href="#action">АКЦІЇ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: slide">
+            <ul class="uk-slideshow-items">
+                <li>
+                    <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                        <img src="images/001.jpg" alt="" uk-cover>
+                    </div>
+                    <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #003d00,#003d00"></div>
+                    <div class="uk-position-center uk-position-medium uk-text-center uk-light uk-background-secondary uk-padding">
+                        <div uk-slideshow-parallax="scale: 1,1,0.8">
+                            <h2 class="uk-heading-divider uk-heading-large" uk-slideshow-parallax="x: 200,0,0">Х.А.Р.Ч.</h2>
+                            <p uk-slideshow-parallax="x: 250,0,0;">Упаковка: м'який реторт-пакет</p>
+                            <p uk-slideshow-parallax="x: 300,0,0;">Вага: 300-350 гр.</p>
+                            <p uk-slideshow-parallax="x: 350,0,0;">Форма відпуску: пакет</p>
+                            <p uk-slideshow-parallax="x: 400,0,0;">Умови зберігання: від 0º до +25ºС</p>
+                            <p uk-slideshow-parallax="x: 450,0,0;">Термін придатності: 2 роки</p>
+                        </div>
+                        <div uk-slideshow-parallax="x: 500,0,0;"><a href="#store" class="uk-button uk-button-primary uk-button-large">ДОКЛАДНІШЕ</a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                        <img src="images/002.jpg" alt="" uk-cover>
+                    </div>
+                    <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #003d00,#003d00"></div>
+                    <div class="uk-position-center uk-position-medium uk-text-center uk-light uk-background-secondary uk-padding">
+                        <div uk-slideshow-parallax="scale: 1,1,0.8">
+                            <h2 class="uk-heading-divider uk-heading-small" uk-slideshow-parallax="x: 200,0,0">М'ЯСО</h2>
+                            <p uk-slideshow-parallax="x: 250,0,0;">Вага: 300-500 гр.</p>
+                            <p uk-slideshow-parallax="x: 300,0,0;">Форма відпуску: пакет</p>
+                            <p uk-slideshow-parallax="x: 350,0,0;">Умови зберігання: від 0º до +25ºС</p>
+                            <p uk-slideshow-parallax="x: 400,0,0;">Термін придатності: 4 роки</p>
+                            <p uk-slideshow-parallax="x: 450,0,0;">Країна походження: Україна</p>
+                            <div uk-slideshow-parallax="x: 500,0,0;"><a href="#meat" class="uk-button uk-button-primary uk-button-large">ДОКЛАДНІШЕ</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                        <img src="images/003.jpg" alt="" uk-cover>
+                    </div>
+                    <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #003d00,#003d00"></div>
+                    <div class="uk-position-center uk-position-medium uk-text-center uk-light uk-background-secondary uk-padding">
+                        <div uk-slideshow-parallax="scale: 1,1,0.8">
+                            <h2 class="uk-heading-divider uk-heading-small" uk-slideshow-parallax="x: 200,0,0">М'ЯСО ЗІ СПЕЦІЯМИ</h2>
+                            <p uk-slideshow-parallax="x: 250,0,0;">Вага: 300-500 гр.</p>
+                            <p uk-slideshow-parallax="x: 300,0,0;">Форма відпуску: пакет</p>
+                            <p uk-slideshow-parallax="x: 350,0,0;">Умови зберігання: від 0º до +25ºС</p>
+                            <p uk-slideshow-parallax="x: 400,0,0;">Термін придатності: 4 роки</p>
+                            <p uk-slideshow-parallax="x: 450,0,0;">Країна походження: Україна</p>
+                            <div uk-slideshow-parallax="x: 500,0,0;"><a href="#action" class="uk-button uk-button-primary uk-button-large">ДОКЛАДНІШЕ</a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-large uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-large uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+    </div>
+    <div id="action" class="uk-section">
+        <div class="uk-container">
+            <h2 class="uk-heading-divider uk-heading-medium uk-text-center">ПРО КОНСЕРВИ</h2>
+            <div class="uk-column-1-1@s uk-column-1-2@m uk-column-1-3@l">
+                <p>Консервоване м'ясо від “Дожору” може бути як самостійною стравою, так і служити основою для приготування різних делікатесів.</p>
+                <p>Якщо ви полюбляєте смак справжньої української свинки або корівки, тоді обов'язково скуштуйте наш продукт.</p>
+                <p>В пакет ми кладемо лише м'ясо — і ніяких “хвостів та копит”. </p>
+                <p>А натуральні прянощі та спеції наповнюють тушонку витонченими східними ароматами.</p>
+                <p>На відміну від багатьох інших виробників, в якості упаковки ми використовуємо м'які реторт-пакети.</p>
+                <p>Ця технологія прийшла до нас із США, де була успішно випробувана у американській армії.</p>
+                <h3>Така тара для консервації має чисельні переваги:</h3>
+                <ul>
+                    <li>Набагато легша за скляну або залізну банку.</li>
+                    <li>Її зручно переносити навіть при мінімумі багажу.</li>
+                    <li>Не боїться ультрафіолету.</li>
+                    <li>Не потребує особливих умов для зберігання.</li>
+                </ul>
+                <p>Свинина готується в пакетах, які запаюються та закладаються до автоклаву, проходячи повну стерилізацію.</p>
+                <p>Таким чином ми отримуємо продукт тривалого зберігання, який може залишатися свіжим та поживним протягом декількох років.</p>
+                <p>Замовити консервоване м'ясо можна за телефоном, або написати нам, ми відповідаємо дуже швидко.</p>
+                <p>З “Дожором” завжди смачно! Разом до перемоги!</p>
+                <p>Є іще один визначний нюанс: нашу їжу можна підігріти навіть теплом свого тіла, розмістивши реторт-пакет під одягом.</p>
+                <p>Для військових, туристів, рибалок, та усіх, хто не уявляє свого життя без активного відпочинку на природі — це справжня знахідка!</p>
+            </div>
+        </div>
+    </div>
+    <div id="store" class="uk-section uk-light uk-background-secondary">
+        <div class="uk-container">
+            <h3 class="uk-heading-divider uk-heading-medium uk-text-center">ПРО Х.А.Р.Ч.</h3>
+            <div class="uk-column-1-1@s uk-column-1-2@m">
+                <p>Х.А.Р.Ч. (Харчуваня Автономне Разового Частування) — це повноцінний раціон для разового прийому їжі однією людиною.</p>
+                <p>Ми знайшли найкраще поєднання м'яса з гарніром та надали стравам вишуканого смаку шляхом додавання натуральних спецій.</p>
+                <p>Ви зможете відкрити для себе нове “звучання” м'яска, приправленого теплою “Аджикою”, яскравим “Каррі” або солодкою “Паприкою”.</p>
+                <h3>В раціон входить чиста яловичина або свинина без хрящів, жил та субпродуктів. До неї ми додаємо на вибір:</h3>
+                <ul>
+                    <li>Рис басматі.</li>
+                    <li>Гречану крупу.</li>
+                    <li>Булгур.</li>
+                    <li>Сочевицю.</li>
+                    <li>Горох.</li>
+                    <li>Нут.</li>
+                    <li>Сортову квасолю.</li>
+                </ul>
+                <p>Наші раціони високо оцінюються військовими, які під час виконання завдань не мають змоги, часу та сил на приготування страв.</p>
+                <h3>У повсякденному житті посмакувати та перекусити ви зможете у будь-якому місці:</h3>
+                <ul>
+                    <li>Під час подорожей потягами, автомобілями або велосипедами.</li>
+                    <li>На туристичному маршруті.</li>
+                    <li>На рибалці.</li>
+                    <li>Під час відпочинку на природі.</li>
+                    <li>На дачі з друзями.</li>
+                </ul>
+                <p>Ми використовуємо м'які реторт-пакети, тож їх можна покласти біля вогнища або в гарячу воду, таким чином їжа підігрівається дуже швидко.</p>
+                <p>А коли немає і таких умов, достатньо розім'яти пакет та розмістити його під одягом.</p>
+                <p>Тепла тіла вистачить, щоб м'ясо з кашею були досить теплими. До речі, багатьом людям наші раціони подобаються навіть у “холодному” вигляді!</p>
+                <p>Ще одна важлива особливість реторт-пакетів — вони не потребують спеціальних умов для зберігання.</p>
+                <p>Якщо не порушена цілісність упаковки, їжа в них не зіпсується і не втратить поживної цінності.</p>
+                <p>Замовляйте раціони Х.А.Р.Ч. від “Дожору”, і не забудьте поділитися смаколиками з друзями. Смачного вам!</p>
+            </div>
+        </div>
+        <div id="meat" class="uk-section">
+            <div class="uk-container uk-text-center">
+                <h4 class="uk-heading-divider uk-heading-small">МʼЯСО</h4>
+                <div uk-lightbox>
+                    <a href="images/004.jpg"><img src="images/004.jpg" width="150" /></a>
+                    <a href="images/005.jpg"><img src="images/005.jpg" width="150" /></a>
+                    <a href="images/006.jpg"><img src="images/006.jpg" width="150" /></a>
+                    <a href="images/007.jpg"><img src="images/007.jpg" width="150" /></a>
+                    <a href="images/008.jpg"><img src="images/008.jpg" width="150" /></a>
+                    <a href="images/009.jpg"><img src="images/009.jpg" width="150" /></a>
+                    <a href="images/010.jpg"><img src="images/010.jpg" width="150" /></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <h3 class="uk-heading-divider uk-heading-medium uk-text-center">ПРО НАС</h3>
+            <p>Консервоване м'ясо від “Дожору” — це найкращий вибір для всіх поціновувачів смачної та корисної їжі.</p>
+            <p>Ми використовуємо яловичину вищої якості, і хочемо наголосити, що в пакеті ви знайдете лише смачне та соковите м'ясо — ніяких хрящів, жил та інших побічних продуктів.</p>
+            <p>А додавання натуральніх прянощів та спецій робить тушонку ароматною та по-справжньому теплою, домашньою.</p>
+            <p>“Фішкою” наших консервів є особлива тара — м'які реторт-пакети.</p>
+            <p>Вони складаються з декількох шарів, включаючи непрозорий з щільної алюмінієвої фольги. Ця упаковка була винайдена у США для портреб американської армії.</p>
+            <p>Її без сумнівів можна назвати “космічною”, адже при правильному приготуванні їжа у пакеті не псується роками.</p>
+            <h3>Такий вибір упаковки дозволяє отримати значні переваги:</h3>
+            <ul>
+                <li>Наша тушонка є повністю стерильною.</li>
+                <li>Всередині не залишається бактерій та їх спор.</li>
+                <li>Продукти захищені від дії сонячних променів.</li>
+                <li>Реторт-пакет не потребує спеціальних умов для зберігання.</li>
+            </ul>
+            <p>На відміну від заліза та скла, наша упаковка не б'ється, не ламається, вона є компактною, що суттєво полегшує транспортування продукції без ризику її пошкодження.</p>
+            <p>Наше консервоване м'ясо — це кращий вибір для туристів, рибалок та усіх любителів відпочинку на природі.</p>
+            <p>Компактні реторт-пакети зручно брати із собою у будь-яку подорож та можна швидко розігріти, просто кинувши закриту упаковку у гарячу воду, поклавши біля вогнища, або навіть під одежею — теплом свого тіла.</p>
+            <p>Крім того, наші вироби стануть в нагоді тим, хто бажає поповнити свої домашні запаси смачною їжею.</p>   
+            <p>Хочете спробувати справжню українську страву з нотками Далекого Сходу? Обирайте  продукт, якість якого гарантує “Дожор”.</p>
+            <p>Пишіть нам або дзвоніть, доставка буде виконана дуже швидко!</p>
+        </div>
+    </div>
+    <div id="footer" class="uk-section uk-light uk-background-secondary">
+        <div class="uk-container uk-text-center">
+            <h3 class="uk-heading-divider uk-heading-medium uk-text-center">ЗВʼЯЗОК</h3>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="whatsapp"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a>
+            <div class="uk-section">
+                <p>©2022 DOZHOR</p>
+                <a href="https://getuikit.com" target="_blank" class="uk-icon-button" uk-icon="uikit"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
